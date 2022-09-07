@@ -1,0 +1,48 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  #input {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-top: solid 1px;
+      background: #ccc;
+      padding-left: 10px;
+      height: 40px;
+  }
+  
+  h1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #454545;
+      color: #fff;
+      margin: 0;
+      padding: 0.25em;
+      height: 38px;
+  }
+  
+  #log {
+      position: absolute;
+      background: #f0f0f0;
+      top: 38px;
+      left: 0px;
+      right: 0px;
+      bottom: 27px;
+      padding: 1em;
+      overflow: auto;
+  }
+  
+  #input input {
+      width: 98%;
+      font-size: 20px;
+      margin-top: 5px;
+  }
